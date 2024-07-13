@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    position: relative;
+    width: 320px;
+    height: 427px;
+    margin: 0 auto;
+    background-color: #FFEEC1;
+    overflow: hidden;
+}
+
+.title-wrapper {
+    padding-top: 77.12px;
+}
+
+.join {
+    font-size: 20.53px;
+    font-weight: 600;
+    line-height: 21.08px;
+    text-align: center;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    z-index: 20;
+    transform: translate(-50%);
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.6, 0.1, 0.15, 0.8);
+}
+
+.title {
+    width: 100%;
+    font-size: 27.92px;
+    font-weight: 800;
+    line-height: 28.68px;
+    text-align: center;
+    transition: 0.5s linear;
+    position: absolute;
+    left: 50%;
+    z-index: 20;
+    transform: translateX(-200%);
+}
+
+.img-wrapper {
+    position: relative;
+    top: 29px;
+}
+
+.mathBoard {
+    position: absolute;
+    top: -4px;
+    left: -95px;
+    z-index: 10;
+    transition: 1s;
+    transition-timing-function: cubic-bezier( 0.77, 0, 0.175, 1 );
+}
+
+.schoolElements {
+    position: absolute;
+    left: 98px;
+    top: 23px;
+    z-index: 10;
+    transition: 1s;
+    transition-timing-function: cubic-bezier( 0.77, 0, 0.175, 1 );
+}
+
+.organicShapes {
+    position: absolute;
+    top: 120px;
+    left: -47px;
+    transition: 1s;
+    transition-timing-function: cubic-bezier( 0.77, 0, 0.175, 1 );
+}
+
+.learnersStationery {
+    position: absolute;
+    right: -67px;
+    top: 173px;
+    transition: 1s;
+    transition-timing-function: cubic-bezier( 0.77, 0, 0.175, 1 );
+}
